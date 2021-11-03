@@ -10,6 +10,8 @@ class Display {
 List<String> populateList() {
   var x = new Accounts();
   cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","--bs-pink"));
+  cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","--bs-pink"));
+  cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","--bs-pink"));
   return cards;
 }
 
@@ -19,9 +21,9 @@ String createDiv() {
   String divCard = "";
   for (var card in cards) {
     //outDiv.innerHtml = card;
-    divCard = card;
+    divCard = divCard + card;
   }
-  //print(outDiv);
+  print(divCard);
   return divCard;
 
 
