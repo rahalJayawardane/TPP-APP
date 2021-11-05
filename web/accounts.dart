@@ -15,7 +15,9 @@ class Accounts {
 //  }
 
 String setCard(String cardName, String cardNumber, String cardHolderName, String expDate, String cardColor) {
-  var cardDiv = "<div class='card'> <label class='card-form-label'>"+ cardName +"</label> <h1 class='card-h1-cardNo'>"+ cardNumber +"</h1> <h1 class='card-h1-user'>"+ cardHolderName +"</h1> <h1 class='card-h1-expDate'>"+ expDate +"</h1> </div>";
+  var cardDiv = "<div class='card "+cardColor+"'> <label class='card-form-label'>"+ cardName +
+  "</label> <h1 class='card-h1-cardNo'>"+ cardNumber +"</h1> <h1 class='card-h1-user'>"+ cardHolderName +
+  "</h1> <h1 class='card-h1-expDate'>"+ expDate +"</h1> </div>";
 
   return cardDiv;
 }

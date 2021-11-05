@@ -9,9 +9,9 @@ class Display {
 
 List<String> populateList() {
   var x = new Accounts();
-  cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","--bs-pink"));
-  cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","--bs-pink"));
-  cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","--bs-pink"));
+  cards.add(x.setCard("card 01","2336 5221 5487 2655","Test user","03/01","pink"));
+  cards.add(x.setCard("card 01","2336 5221 5487 2654","Test user","03/01","orange"));
+  cards.add(x.setCard("card 01","2336 5221 5487 2653","Test user","03/01","green"));
   return cards;
 }
 
