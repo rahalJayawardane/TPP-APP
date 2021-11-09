@@ -18,7 +18,14 @@ List<String> populateList() {
 
 List<String> populateTransactions() {
   var x = new Transactions();
-  details.add(x.setDetails("card 01","23365221","Test user"));
+  details.add(x.setDetails("Tax","21-Oct-2021","(2500.00)"));
+  details.add(x.setDetails("Top-up","23-Oct-2021","15000.00"));
+  details.add(x.setDetails("Savings","23-Oct-2021","24000.00"));
+  details.add(x.setDetails("Telephone Bill","24-Oct-2021","(11750.00)"));
+  details.add(x.setDetails("Water Bill ","28-Oct-2021","(1500.00)"));
+  details.add(x.setDetails("Wage","29-Oct-2021","350000.00"));
+  details.add(x.setDetails("Income","02-Nov-2021","27500.00"));
+  details.add(x.setDetails("Interest","05-Nov-2021","500.00"));
   return cards;
 }
 
