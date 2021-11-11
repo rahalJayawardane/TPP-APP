@@ -25,7 +25,6 @@ List<String> populateTransactions() {
   details.add(x.setDetails("Water Bill ","28-Oct-2021","(1500.00)"));
   details.add(x.setDetails("Wage","29-Oct-2021","350000.00"));
   details.add(x.setDetails("Income","02-Nov-2021","27500.00"));
-  details.add(x.setDetails("Interest","05-Nov-2021","500.00"));
   return cards;
 }
 
