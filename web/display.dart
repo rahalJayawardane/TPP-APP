@@ -51,4 +51,10 @@ String createTransactions() {
   return x.setTable(divTransactions);
 }
 
+String total() {
+  int tot;
+  tot = details.length;
+  return tot.toString();
+}
+
 }
