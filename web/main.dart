@@ -7,5 +7,6 @@ void main() {
   Display display = new Display();
   querySelector('#output')?.innerHtml = display.createDiv();
   querySelector('#output2')?.innerHtml = display.createTransactions();
+  querySelector('#balance')?.innerHtml = display.total();
 
 }

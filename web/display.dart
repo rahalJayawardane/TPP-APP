@@ -52,9 +52,10 @@ String createTransactions() {
 }
 
 String total() {
-  int tot;
-  tot = details.length;
-  return tot.toString();
+  String tot;
+  //implement the bank account total
+  tot = "1,580,454.98";
+  return tot;
 }
 
 }
