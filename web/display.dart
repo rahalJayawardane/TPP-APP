@@ -1,6 +1,7 @@
 import 'accounts.dart';
 import 'transactions.dart';
 import 'dart:html';
+import 'dart:convert';
 
 class Display {
 
@@ -56,6 +57,12 @@ String total() {
   //implement the bank account total
   tot = "1,580,454.98";
   return tot;
+}
+
+String getUserDetails() {
+  final jsonData = '{ "name": "Rahal Jayawardane", "userId": "0021548448" }';
+  final parsedJson = jsonDecode(jsonData);
+  return parsedJson;
 }
 
 }
