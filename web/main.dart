@@ -8,6 +8,8 @@ void main() {
   querySelector('#output')?.innerHtml = display.createDiv();
   querySelector('#output2')?.innerHtml = display.createTransactions();
   querySelector('#balance')?.innerHtml = display.total();
-  querySelector('#userName')?.innerHtml = jsonDecode(display.getUserDetails())['name'];
+
+  final user = json.decode(display.getUserDetails());
+  querySelector('#userName')?.innerHtml = 'Welcome ' + user['name'] ;
 
 }

@@ -37,7 +37,6 @@ String createDiv() {
     //outDiv.innerHtml = card;
     divCard = divCard + card;
   }
-  print(divCard);
   return divCard;
 }
 
@@ -60,9 +59,11 @@ String total() {
 }
 
 String getUserDetails() {
-  final jsonData = '{ "name": "Rahal Jayawardane", "userId": "0021548448" }';
-  final parsedJson = jsonDecode(jsonData);
-  return parsedJson;
+  final jsonData = """{
+    "name": "Rahal",
+    "userId": "0021548448" 
+  }""";
+  return jsonData;
 }
 
 }
